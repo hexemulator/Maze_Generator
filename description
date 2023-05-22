@@ -1,0 +1,26 @@
+Date: May 21st, 2023
+Author: HexEmulator
+
+Maze Generator in Python
+
+Purpose/Description:
+This is an application that will generate a x by y maze (where x and y are user-specified values, x, y > 5)
+The purpose of the application is mostly for fun, but could potentially be used for adjacent programs that
+make use of a path-finding algorithm (potentially dijkstra's algorithm) that requires a PASS/FAIL test in order
+to be tested.
+
+Concept:
+Walls fall between squares that make up the grid of the maze;
+From each point on the grid-- it can have a wall going up, down, left, or right. (the points are at the overlap
+of x and y lines.
+
+
+Implementation:
+1. first we need to take in user input for a maze
+2. construct a dynamic vector which has the desired dimensions
+3. randomly assign walls
+
+
+Requirements:
+the maze needs to be solvable (how to prove)
+the maze needs to be displayed in a visual format
